@@ -1,0 +1,173 @@
+/* Dark background for the overall page (black background) */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000000; /* Pure black background */
+}
+
+/* Positioning the "Connect Wallet" button at the top-right */
+.connectButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    border: 2px solid #FFFFFF; /* White border */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.connectButton:hover {
+    background-color: #333333; /* Slightly lighter on hover */
+}
+
+/* Centering the form content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form container */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Spacing between the input fields */
+.inputGroup {
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+.inputGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #FFFFFF; /* White text */
+}
+
+/* Input field styles with black and white aesthetics */
+.input {
+    width: 90%;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: 2px solid #FFFFFF; /* White border */
+    border-radius: 5px;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    transition: background-color 0.3s ease;
+}
+
+.input:focus {
+    outline: none;
+    background-color: #333333; /* Slightly lighter on focus */
+}
+
+/* Button style for the "Buy Coffee" button */
+.buyButton {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    border: 2px solid #FFFFFF; /* White border */
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.buyButton:hover {
+    background-color: #333333; /* Slightly lighter on hover */
+}
+
+/* Memos section */
+.memos {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.memos h2 {
+    text-align: center;
+    color: #FFFFFF; /* White text for the title */
+}
+
+/* Styling the chat section for memos */
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Memo bubbles with a black and white style */
+.chatBubble {
+    background-color: #333333; /* Dark background for bubbles */
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.3); /* White shadow for effect */
+}
+
+.chatBubble strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #FFFFFF; /* White text for the name */
+}
+
+.chatBubble p {
+    margin: 0;
+    font-size: 14px;
+    color: #FFFFFF; /* White text for the message */
+}
+
+.chatBubble span {
+    display: block;
+    font-size: 13px;
+    color: #CCCCCC; /* Lighter gray for timestamps */
+    text-align: right;
+}
+
+/* Styling the button at the bottom */
+.bottomButton {
+    position: fixed;
+    bottom: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    border: 2px solid #FFFFFF; /* White border */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bottomButton:hover {
+    background-color: #333333; /* Slightly lighter on hover */
+}
+
+/* Image placeholder for the Name field (Square shape, centered) */
+.imagePlaceholder {
+    width: 150px; /* Square shape */
+    height: 150px; /* Square shape */
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
