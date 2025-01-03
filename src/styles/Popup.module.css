@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8); /* Darker background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,19 +12,25 @@
 }
 
 .popup {
-    background-color: white;
+    background-color: #1e1e1e; /* Dark gray background */
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6); /* More pronounced shadow */
+    color: #f0f0f0; /* Light text for contrast */
 }
 
 .okButton {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #4caf50;
-    color: white;
+    background-color: #2a9d8f; /* Cool dark teal */
+    color: #ffffff;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.okButton:hover {
+    background-color: #21867a; /* Slightly darker teal on hover */
 }
